@@ -20,11 +20,11 @@ LBPHFaceRecognizer is also used for the detection of the learnt faces.
 ## File Structure
 
 RecoFACE(folder)-\
-	facedata(folder) - folder which contain all the pictures captured through webcam\
-	facetrainer(folder) -\
-  		names.csv - CSV file which contains the names of the person for which model is trained.\
-  		trainer.yml - contains trained data\
-	Face-Recognition(real-time).ipynb - Jupyter notebook python file containing code.
+--------facedata(folder) - folder which contain all the pictures captured through webcam\
+--------facetrainer(folder) -\
+----------------names.csv - CSV file which contains the names of the person for which model is trained.\
+----------------trainer.yml - contains trained data\
+--------Face-Recognition(real-time).ipynb - Jupyter notebook python file containing code.
   
     
 ## HOW TO USE
