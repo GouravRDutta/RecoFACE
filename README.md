@@ -1,4 +1,4 @@
-"##RecoFACE" 
+## RecoFACE 
 ## Introduction
 RecoFACE is a Face Recognition Application made in python using OpenCV.
 
