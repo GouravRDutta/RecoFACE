@@ -6,7 +6,7 @@ It uses OpenCV for capturing and handling the images.\
 It uses OpenCV Haar-Cascade Classifier to search for faces in the entire image.\
 It uses OpenCV Local Binary Patterns Histograms (LBPH) LBPHFaceRecognizer model for feature extraction and learns from them.\
 The learnt model is then saved in a yml file.\
-LBPHFaceRecognizer is also used for the detection of the learnt faces.\
+LBPHFaceRecognizer is also used for the detection of the learnt faces.
 
 
 ## Requirements
@@ -20,11 +20,11 @@ LBPHFaceRecognizer is also used for the detection of the learnt faces.\
 ## File Structure
 
 RecoFACE(folder)-\
-  facedata(folder) - folder which contain all the pictures captured through webcam\
-  facetrainer(folder) -\
-      names.csv - CSV file which contains the names of the person for which model is trained.\
-      trainer.yml - contains trained data\
-  Face-Recognition(real-time).ipynb - Jupyter notebook python file containing code.\
+	facedata(folder) - folder which contain all the pictures captured through webcam\
+	facetrainer(folder) -\
+  		names.csv - CSV file which contains the names of the person for which model is trained.\
+  		trainer.yml - contains trained data\
+	Face-Recognition(real-time).ipynb - Jupyter notebook python file containing code.
   
     
 ## HOW TO USE
@@ -42,7 +42,7 @@ RecoFACE(folder)-\
        The model will then automatically train upon the images clicked and will 
        save the data in trainer.yml file inside facetrainer.\
        The model will save the names of the user in names.csv file.\
-       It will then give info on number of faces trained.\
+       It will then give info on number of faces trained.
 2. Detecting the faces
        You have to press 2 to open the detection window.\
        Camera window opens.\
@@ -50,7 +50,7 @@ RecoFACE(folder)-\
        present in the window.\
        If a face is detected. The predicted name and percentage of prediction will be displayed 
        along with a green square surrounding the face.\
-       Press key q to quit the window.\
+       Press key q to quit the window.
 3. Press 3 for exit.
 
 
