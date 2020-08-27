@@ -25,6 +25,7 @@ RecoFACE(folder)-\
 ----------------names.csv - CSV file which contains the names of the person for which model is trained.\
 ----------------trainer.yml - contains trained data\
 --------Face-Recognition(real-time).ipynb - Jupyter notebook python file containing code.
+--------haarcascade_frontalface_default.xml
   
     
 ## HOW TO USE
